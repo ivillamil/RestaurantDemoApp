@@ -1,0 +1,41 @@
+.fontsize-2 {
+    font-size: 2em;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    width: 100%;
+}
+
+#home-page .ui-li .ui-btn-inner a.ui-link-inherit,
+#home-page .ui-li-static.ui-li {
+    line-height: 2em;
+    padding: 1em 15px;
+}
+
+#home-page .ui-li .ui-btn-inner a.ui-link-inherit i,
+#home-page .ui-li-static.ui-li i {
+    float: left;
+    line-height: 1em;
+}
+
+#gallery-page .ui-content,
+#location-page .ui-content,
+#menu-page .ui-content,
+#promotions-page .ui-content {
+    padding: 0;
+}
+
+#map-canvas {
+    background: #aaa;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.ui-header .ui-title {
+    background: transparent url(../img/logo_michi.png) no-repeat center top;
+    background-size: contain;
+    height: 50px;
+    text-indent: -900px;
+}
